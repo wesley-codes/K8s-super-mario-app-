@@ -1,13 +1,18 @@
+
+variable "aws_region" {
+  description = "The region to use for the AWS provider"
+  type        = string
+  default     = "eu-north-1"
+}
+
 variable "vpc_cidr_block" {
   description = "The CIDR block for the VPC"
   type        = string
-
 }
 
 variable "azs" {
   description = "The availability zones for the VPC"
   type        = string
-
 }
 
 variable "public_subnet_cidr_block" {
