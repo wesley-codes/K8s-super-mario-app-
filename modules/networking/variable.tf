@@ -15,3 +15,9 @@ variable "public_subnet_cidr_block" {
   type        = string
 
 }
+
+variable "private_subnet_cidr_block" {
+  description = "The CIDR blocks for the private subnets"
+  type        = string
+}
+
