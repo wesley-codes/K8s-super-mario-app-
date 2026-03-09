@@ -25,3 +25,8 @@ variable "azs" {
 #   description = "The CIDR blocks for the private subnets"
 #   type        = string
 # }
+
+variable "cluster_name" {
+  description = "eks cluster name"
+  type        = string
+}
